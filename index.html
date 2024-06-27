@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Berserk Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <!-- navegacion y logo -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-underline">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">NOTICIAS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CATALOGO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" ahref="#">NOSOTROS</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- iconos -->
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img class="twitter" src="img/Twitter.png" alt="Twitter"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img class="instagram" src="img/instagram.png" alt="Instagram"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img class="discord" src="img/discord.png" alt="Discord"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img class="facebook" src="img/facebook.png" alt="facebook"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img class="reddit" src="img/reddit.png" alt="reddit"></a>
+                </li>
+              </ul>
+
+            </div>
+          </nav>
+
+    </header>
+
+    <div class="container-fluid">
+        
+        <!--entrada banner-->
+        <div class="row">
+            <div class="col-md-12 px-0 mx-auto banner">
+                <div class="row">
+    
+                    <img class="img-fluid" src="img/fondo01.png" alt="fondo01" />
+                            
+                    <div class="col-md-6 seccion01">
+                        <h2>KENTARO MIURA</h2> 
+                        <img class="berserk01" src="img/berserk01.png" alt="berserk01">
+                        <h4>Out now on all platforms!</h4> 
+                        <a class="btn btn-dark border border-danger" href="">Buy Now!</a>
+                        <div class="portables">
+                            <img class="img-fluid" src="img/play.png" alt="">
+                            <h4>PS5. | PS4.</h4>
+                            <img class="img-fluid" src="img/xbox.png" alt="">
+                            <h4>XBOX SERIES X | S.</h4>
+                            <h3>PC</h3>
+                            <img class="img-fluid" src="img/switch.png" alt="">
+                            <div class="col-md-1"><p>NINTENDO SWITCH</p></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+
+                    </div>
+                
+                </div>   
+            </div>
+        </div>
+    </div>
+</header> <!-- cierre del Header -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 px-0">
+            <div class="row">
+                <img class="img-fluid separador"  src="img/linea_negra.png" alt="linea_negra">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 px-0 mx-auto mano">
+            <div class="row">
+            <img src="img/mano.jpg" alt="mano">
+                <div class="textos">
+                    <div class="col-md-11">
+                        <div class="row">     
+                            <div class="col-md-1 globo1">
+                                <h4>IS IT LIKE THE HAND OF GOD HOVERING ABOVE?</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-11">
+                    <div class="row gy-5 py-5">
+                        <div class="col-md-7"></div>
+                            <div class="col-md-2 globo2">
+                                <h4>IS THIS WORLD, IS THE DESTINY OF MANKIND CONTROLLED BY SOME TRANSCENDENTAL ENTITY OR LAW......?</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-11">
+                        <div class="row gy-5 py-5">
+                            <div class="col-md-2 globo3">
+                                <h4>AT LEAST, IT IS TRUE THAT MAN HAS NO CONTROL, EVEN OVER HIS OWN WILL.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 px-0">
+                            <div class="row">
+                                <img class="separador2" src="<?php bloginfo('template_url');?>/img/linea_negra.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <?php endwhile; ?>	
+                <?php else : ?>  
+                <?php endif; ?>
+                <?php wp_reset_query(); ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="col-md-12 px-0">
+        <div class="row">
+            <div class="embed-container video">
+                <iframe src="media/berserk-trailer.mp4" frameborder="0"></iframe>
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 px-0 mx-auto atardecer">
+            <div class="row">
+                <img class="img-fluid" src="img/fondo02.png" alt="fondo02"/>
+                <div class="huevo">
+                    <div class="col-md-11 mx-auto">
+                        <div class="huevo2">
+                            <img class="behelit01" src="img/behelit01.png" alt="behelit01"/>
+                            <img class="behelit02" src="img/behelit02.png" alt="behelit02"/>
+                            <img class="behelit03" src="img/behelit03.png" alt="behelit03"/>
+                            <img class="behelit04" src="img/behelit04.png" alt="behelit04"/>
+                        </div>
+                    <div class="col-md-4">
+                        <h4 class="maldicion">"Aquel que porte el huevo del rey conquistador, conseguirá todo lo que quiera a costa de su cuerpo y sangre"</h4>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 px-0 mx-auto imagenes">
+            <div class="row">
+    
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 px-0">
+                                <div class="row">
+                                    <img class="img-fluid separador3"  src="img/linea_negra.png" alt="linea_negra">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="logo2">
+                        <img class="img-fluid" class="img-fluid" src="img/logo2.png" alt="logo2"/>
+                    </div>
+                    
+                    <div class="col-md-11 mx-auto galeria">
+                        <div class="blanco">
+                            <div class="row">
+                                <div class="col-md-4 imagen1">
+                                    <img class="img-fluid" src="img/imagen01.jpg" alt="imagen01"/>
+                                </div>
+                                <div class="col-md-4 imagen2">
+                                    <img class="img-fluid" src="img/imagen02.png" alt="imagen02"/>
+                                </div>
+                                <div class="col-md-4 imagen3">
+                                    <img class="img-fluid" src="img/imagen05.jpg" alt="imagen05"/>
+                                </div>
+                                <div class="col-md-4 mx-auto imagen4">
+                                    <img class="img-fluid" src="img/imagen07.png" alt="imagen07"/>
+                                </div>
+                                <div class="col-md-6 imagen5">
+                                    <img class="img-fluid" src="img/imagen04.png" alt="imagen04"/>
+                                </div>
+                                <div class="col-md-5 mx-auto imagen6">
+                                    <img class="img-fluid" src="img/imagen03.jpg" alt="imagen03"/>
+                                    </div>
+                                <div class="col-md-5 imagen7">
+                                    <img class="img-fluid" src="img/imagen11.jpg" alt="imagen11"/>
+                                </div>
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 mx-auto px-0 personajes">
+            <div class="row">
+            <img src="img/fondo03.png" alt="fondo03"/>
+                <div class="principales">
+                    <div class="row">
+                        <div class="col-md-3 mx-auto">
+                            <h4 class="">Gust</h4>
+                            <p class="border-top border-secondary-subtle">Guts in the main protagonist in Berserk and the Band of the Hawk and who you will play with for the majority of Story Mode. He uses a large sword initially, but eventually graduates to using an even larger sword, the Dragonslayer, once he becomes "The Black Swordsman."</p>
+                        </div>
+                        <div class="col-md-3 mx-auto">
+                            <img src="img/gust.png" alt="gust"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 mx-auto">
+                            <img src="img/griffts.png" alt="griffts"/>
+                        </div>
+                        <div class="col-md-3 mx-auto">
+                            <h4 class="">Griffith</h4>
+                            <p class="border-top border-secondary-subtle">Unlock Griffith by completing "First Battle" in Story Mode. Griffith fights with a quick sabre, performing incredibly fast piercing combos on opponents. He relies on dealing numerous blows on his enemy, and increasing Griffith's Technique will up his rate of rapid fire stabs even more. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 mx-auto">
+                            <h4 class="">Casca</h4>
+                            <p class="border-top border-secondary-subtle">Unlock Casca by completing "First Battle" in Story Mode. Casca's fighting style incorporates martial-arts style kicks and acrobatics with her sword swipes. She's a fast character that becomes even faster in Frenzy Mode. </p>
+                        </div>
+                        <div class="col-md-3 mx-auto">
+                            <img src="img/caska.png" alt="caska"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+<footer>
+    <div class="col-md-12 px-0">
+        <div class="row">
+            <img class="separador4" src="img/linea_negra.png" alt="linea_negra">
+        </div>
+    </div>
+
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-md-12 mx-auto px-0 footer">
+                <div class="lista border-top border-bottom border-secondary-subtle">
+                    <div class="row">
+                        <div class="col-md-6 mx-auto py-5">
+                            <p>Berserk and the Band of the Hawk, known in Japan as Berserk Musou, is a Musō game developed by Omega Force and published by Koei Tecmo for PlayStation 3, PlayStation 4, PlayStation Vita, and Microsoft Windows.</p>
+                        </div>
+                        <div class="col-md-3 py-5">
+                            <ul>
+                                <h5>Términos y Políticas</h5>
+                                <li>Términos y Condiciones</li>
+                                <li>Politicas de privacidad</li>
+                                <li>Politicas de Cookies</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 py-5">
+                            <ul>
+                                <li>Berserk</li>
+                                <li>Catalogo</li>
+                                <li>Proximamente</li>
+                                <li>Contacto</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="portables2">
+                                <img class="img-fluid" src="img/play.png" alt="">
+                                <h4>PS5. | PS4.</h4>
+                                <img class="img-fluid" src="img/xbox.png" alt="">
+                                <h4>XBOX SERIES X | S.</h4>
+                                <h3>PC</h3>
+                                <img class="img-fluid" src="img/switch.png" alt="">
+                                <div class="col-md-1"><p>NINTENDO SWITCH</p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 mx-auto">
+                            <ul>
+                                <div class="redes">
+                                    <li><img class="twitter" src="img/Twitter.png" alt="twitter"></li>
+                                    <li><img class="instagram" src="img/instagram.png" alt="instagram"></li>
+                                    <li><img class="discord" src="img/discord.png" alt="discord"></li>
+                                    <li><img class="facebook" src="img/facebook.png" alt="facebook"></li>
+                                    <li><img class="reddit" src="img/reddit.png" alt="reddit"></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
